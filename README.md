@@ -6,19 +6,20 @@ Additional software to enchance the Lumina Desktop Enviroment.
 
 ### Lumina disk manager
 
-An UDisks disk manager and library for Lumina. Supports removable and optical devices.
+An disk manager for Lumina. Supports removable and optical devices.
 
 ### Lumina power manager
 
-An UPower power manager for Lumina.
+An power manager for Lumina.
 
  * Implements org.freedesktop.PowerManagement session daemon
  * Implements org.freedesktop.ScreenSaver session daemon
  * Tray icon with battery percent
  * Supports lock screen, suspend, hibernate, shutdown (TODO)
  * Supports lid actions
- * Hibernate/Shutdown on cirtical battery
+ * Hibernate/Shutdown on critical battery
  * Auto sleep
+ * Monitor hotplug
 
 ### Lumina keyboard manager
 
@@ -26,7 +27,11 @@ Enables users to set custom keyboard layout, variant and model in Lumina.
 
 ## Build
 
-Clone or download this repository, then make sure you have Qt 4/5, XSS (X11 Screen Saver extension client library) and the D-Bus bindings for Qt installed.
+Clone or download this repository, then make sure you have :
+ * Qt 4/5 (Just use the same version Lumina is built against) development files (core/gui/dbus)
+ * XSS (X11 Screen Saver extension client library) development files
+ * RandR (xrandr) application (needed at runtime) and development files
+ * Xinerama development files
 
 Build and install to /usr/local:
 
