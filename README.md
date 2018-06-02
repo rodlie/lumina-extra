@@ -29,9 +29,13 @@ Enables users to set custom keyboard layout, variant and model in Lumina.
 
 Clone or download this repository, then make sure you have :
  * Qt 4/5 (Just use the same version Lumina is built against) development files (core/gui/dbus)
- * XSS (X11 Screen Saver extension client library) development files
- * RandR (xrandr) application (needed at runtime) and development files
+ * XSS (X11 Screen Saver extension) development files
+ * RandR development files
  * Xinerama development files
+ * lumina-xconfig is needed at runtime
+ * Udisks/bsddisks is needed at runtime
+ * UPower is needed at runtime
+ * xrandr is needed at runtime
 
 Build and install to /usr/local:
 
