@@ -1,3 +1,19 @@
+# PROJECT EOL!
+
+Useful stuff has been moved to own repos:
+
+* https://github.com/rodlie/powerdwarf
+* https://github.com/rodlie/cyan
+* https://github.com/rodlie/qtfm
+
+
+
+
+
+
+
+
+
 [![Build Status](https://travis-ci.org/rodlie/lumina-extra.svg?branch=master)](https://travis-ci.org/rodlie/lumina-extra)
 
 # Lumina Desktop Extras
